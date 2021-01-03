@@ -57,7 +57,7 @@ GLuint loadshaders(shaderinfo* shaders) {
 		}
 
 		glShaderSource(shader, 1, &source, NULL);
-		free(source);
+		free((void*)source);
 
 		glCompileShader(shader);
 		GLuint compiled;
