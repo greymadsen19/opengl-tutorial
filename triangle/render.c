@@ -13,8 +13,8 @@ void init(void) {
 	};
 
 	shaderinfo shaders[3] = {
-		{ GL_VERTEX_SHADER, "triangle.vs" },
-		{ GL_FRAGMENT_SHADER, "triangle.fs" },
+		{ GL_VERTEX_SHADER, "../triangle.vs" },
+		{ GL_FRAGMENT_SHADER, "../triangle.fs" },
 		{ GL_NONE, NULL }
 	};
 

@@ -10,8 +10,8 @@ void init(void) {
 	GLfloat dot[] = { -0.5f, 0.5f };
 
 	shaderinfo shaders[3] = {
-		{ GL_VERTEX_SHADER, "dot.vs" },
-		{ GL_FRAGMENT_SHADER, "dot.fs" },
+		{ GL_VERTEX_SHADER, "../dot.vs" },
+		{ GL_FRAGMENT_SHADER, "../dot.fs" },
 		{ GL_NONE, NULL }
 	};
 
